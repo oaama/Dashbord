@@ -1,32 +1,8 @@
-# Dashboard Project
+# Courses Admin Dashboard
 
-هذا المشروع عبارة عن لوحة تحكم لإدارة الكورسات والمستخدمين، ويحتوي على واجهة أمامية (React + Vite + TypeScript) وواجهة خلفية (Node.js/Express/MongoDB).
+**Developed by Eng. Angelo Rezq**
 
-## الهيكل العام
-- **src/** : كود الواجهة الأمامية (React)
-- **backend/** : كود الباك اند (Express)
-- **confg/** : ملفات الإعدادات
-- **index.html** : ملف البداية للواجهة الأمامية
-- **package.json** : إعدادات الحزم
+Admin dashboard for managing courses and users.
 
-## خطوات التشغيل محليًا
-1. تثبيت الحزم:
-   ```
-   npm install
-   ```
-2. تشغيل الواجهة الأمامية:
-   ```
-   npm run dev
-   ```
-3. لتشغيل الباك اند، انتقل لمجلد backend (إذا كان مستقل) وشغل السيرفر:
-   ```
-   node server.js
-   ```
-
-## ملاحظات
-- لا ترفع أي بيانات حساسة (مثل بيانات الاتصال بقاعدة البيانات أو التوكنات) على GitHub.
-- استخدم ملفات البيئة `.env` لحفظ البيانات السرية.
-- يمكنك تعديل إعدادات CORS في الباك اند حسب رابط الاستضافة النهائي للواجهة.
-
-## المؤلف
-- Eng. Amglous Rezq
+## Tech Stack
+React + Vite + TypeScript frontend, Node.js/Express/MongoDB backend
